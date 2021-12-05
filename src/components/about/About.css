@@ -1,0 +1,68 @@
+.about {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: var(--white);
+  }
+.about-container{
+    display: flex;
+    /* background-color:violet; */
+    width: 92%;
+    height: 90%;
+}
+/* ======= */
+.left-about{
+    flex-basis: 63%;
+    /* background-color: yellow; */
+}
+.left-about-container{
+    width: 70%;
+    height: 100%;
+    border: 1px solid white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.about-content{
+    /* background-color: tomato; */
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+    height: 60%;
+    justify-content: space-between;
+
+}
+
+
+
+
+/*  ===================  */
+.right-about{
+    display: flex;
+    align-content: center;
+    align-items: center;
+    flex-basis: 37%;
+    /* background-color: yellowgreen; */
+}
+.right-about .about-pic{
+    display: flex;
+     /* background:violet;  */
+     flex-direction: column;
+     justify-content: center;
+     
+     align-content: center;
+    width: 100%;
+    height: 80%;
+}
+.right-about .about-pic .about-pic-real{
+    background: url(./../../assets/fady.jpg);
+    width: 100%;
+    height: 90%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 10px;
+    
+}
+

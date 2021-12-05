@@ -1,13 +1,50 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;800&display=swap");
+:root {
+  --first-color: #f9f9fc;
+  --second-color: #e2e2e2;
+  --white: #fff;
+  --black: #1a1a1a;
+  --line: #cbd3d9;
+  --gray: #34495e;
+  --blue :#37a4fd;
+
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.global-title{
+  font-size: 60px;
+    font-weight: 800;
 }
+
+.first-btn {
+  padding: 1rem;
+  background-color: transparent;
+  
+  font-size: 20px;
+  width: 11rem;
+  height: 4rem;
+  border-radius: 0.25rem;
+  border: 1px solid var(--black);
+  cursor: pointer;
+  transition: 0.3s ease-out;
+}
+.first-btn:hover{
+  background-color: var(--black);
+  color: var(--white);
+  
+}
+
+.second-btn {
+  padding: 1rem;
+  background-color: transparent;
+  
+  font-size: 20px;
+  width: 11rem;
+  height: 4rem;
+  border-radius: 0.25rem;
+  border:none;
+  cursor: pointer;
+  transition: 0.3s ease-out;
+}
+.second-btn:hover{
+  font-size: 22px;
+} 
