@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/portfolio-fady/static/css/main.2f291a41.chunk.css",
-    "main.js": "/portfolio-fady/static/js/main.b996ef84.chunk.js",
-    "main.js.map": "/portfolio-fady/static/js/main.b996ef84.chunk.js.map",
+    "main.css": "/portfolio-fady/static/css/main.c61c76c0.chunk.css",
+    "main.js": "/portfolio-fady/static/js/main.cfa78601.chunk.js",
+    "main.js.map": "/portfolio-fady/static/js/main.cfa78601.chunk.js.map",
     "runtime-main.js": "/portfolio-fady/static/js/runtime-main.8c49b4a0.js",
     "runtime-main.js.map": "/portfolio-fady/static/js/runtime-main.8c49b4a0.js.map",
     "static/js/2.cfaae9e0.chunk.js": "/portfolio-fady/static/js/2.cfaae9e0.chunk.js",
     "static/js/2.cfaae9e0.chunk.js.map": "/portfolio-fady/static/js/2.cfaae9e0.chunk.js.map",
     "index.html": "/portfolio-fady/index.html",
-    "static/css/main.2f291a41.chunk.css.map": "/portfolio-fady/static/css/main.2f291a41.chunk.css.map",
+    "static/css/main.c61c76c0.chunk.css.map": "/portfolio-fady/static/css/main.c61c76c0.chunk.css.map",
     "static/js/2.cfaae9e0.chunk.js.LICENSE.txt": "/portfolio-fady/static/js/2.cfaae9e0.chunk.js.LICENSE.txt",
     "static/media/HomePage.css": "/portfolio-fady/static/media/fady.211b82fb.jpg",
     "static/media/Navbar.css": "/portfolio-fady/static/media/icon.6b803d94.png",
@@ -18,7 +18,7 @@
   "entrypoints": [
     "static/js/runtime-main.8c49b4a0.js",
     "static/js/2.cfaae9e0.chunk.js",
-    "static/css/main.2f291a41.chunk.css",
-    "static/js/main.b996ef84.chunk.js"
+    "static/css/main.c61c76c0.chunk.css",
+    "static/js/main.cfa78601.chunk.js"
   ]
 }
