@@ -1,9 +1,25 @@
 import React from 'react';
+
 import "./HomePage.css";
 
 const HomePage = () => {
+//     const [click, setClick] = useState(false);
+//   const handleClick = () => setClick(!click);
     return (
         <div className="home">
+            {/* <nav className="navbar-top">
+                <div className="navbar-top-container">
+                    <div className="logo-navbar">
+                        <div className="logo-container">
+                            <h1><span>F</span>ady</h1>
+                        </div>
+                    </div>
+                    <div className="nav-icon" onClick={handleClick}>
+                        <i className={click ? "fas fa-times" : "fas fa-bars"} />
+                    </div>
+                </div>
+            </nav>   */}
+
             <div className="home-container">
                 <div className="profile-picture">
                     <div className="profile-picture-background"></div>

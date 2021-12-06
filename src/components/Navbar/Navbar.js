@@ -1,9 +1,12 @@
-import React from "react";
+import React,{useState} from "react";
 import { NavLink } from "react-router-dom";
 import { scroller } from "react-scroll";
 import "./Navbar.css";
 
-const Navbar = () => {
+const Navbar = ({click,setClick}) => {
+  // const [click, setClick] = useState(false);
+   const handleClick = () => setClick(!click);
+
   const scrollToHome = () => {
     scroller.scrollTo("home", {
       duration: 800,
@@ -21,6 +24,13 @@ const Navbar = () => {
   };
   const scrollToService = () => {
     scroller.scrollTo("service", {
+      duration: 800,
+      delay: 0,
+      smooth: "easeInOutQuart",
+    });
+  };
+  const scrollToPortfolio = () => {
+    scroller.scrollTo("contact", {
       duration: 800,
       delay: 0,
       smooth: "easeInOutQuart",
@@ -46,28 +56,28 @@ const Navbar = () => {
         <div className="links-container">
           <ul className="links-navbar">
             <li>
-              <NavLink to="/" className="link-nav" onClick={scrollToHome}>
+              <NavLink to="/" className="link-nav" onClick={()=>{handleClick(); scrollToHome()}}>
                 <i className="fas fa-home"></i> Home
               </NavLink>
             </li>
             <li>
-              <NavLink to="/" className="link-nav" onClick={scrollToAbout}>
-                <i class="fas fa-address-card"></i> About
+              <NavLink to="/" className="link-nav" onClick={()=>{handleClick(); scrollToAbout()}}>
+                <i className="fas fa-address-card"></i> About
               </NavLink>
             </li>
             <li>
-              <NavLink to="/" className="link-nav" onClick={scrollToService}>
-                <i class="fas fa-network-wired"></i> Service
+              <NavLink to="/" className="link-nav" onClick={()=>{handleClick(); scrollToService()}}>
+                <i className="fas fa-network-wired"></i> Service
               </NavLink>
             </li>
             <li>
-              <NavLink to="/" className="link-nav">
-                <i class="fab fa-empire"></i> Portfolio
+              <NavLink to="/" className="link-nav" onClick={()=>{handleClick(); scrollToPortfolio()}}>
+                <i className="fab fa-empire"></i> Portfolio
               </NavLink>
             </li>
             <li>
-              <NavLink to="/" className="link-nav" onClick={scrollToContact}>
-                <i class="fas fa-handshake"></i> Contact
+              <NavLink to="/" className="link-nav" onClick={()=>{handleClick(); scrollToContact()}}>
+                <i className="fas fa-handshake"></i> Contact
               </NavLink>
             </li>
           </ul>

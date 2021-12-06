@@ -136,7 +136,7 @@ const Service = () => {
             </div>
             <div className="remove-card">
               <span onClick={handleFirstDiv}>
-                <i class="far fa-times-circle"></i>
+                <i className="far fa-times-circle"></i>
               </span>
             </div>
           </div>
@@ -195,7 +195,7 @@ const Service = () => {
             </div>
             <div className="remove-card">
               <span onClick={handleSecondtDiv}>
-                <i class="far fa-times-circle"></i>
+                <i className="far fa-times-circle"></i>
               </span>
             </div>
           </div>
@@ -254,7 +254,7 @@ const Service = () => {
             </div>
             <div className="remove-card">
               <span onClick={handleThirdtDiv}>
-                <i class="far fa-times-circle"></i>
+                <i className="far fa-times-circle"></i>
               </span>
             </div>
           </div>
@@ -313,7 +313,7 @@ const Service = () => {
             </div>
             <div className="remove-card">
               <span onClick={handleFourthDiv}>
-                <i class="far fa-times-circle"></i>
+                <i className="far fa-times-circle"></i>
               </span>
             </div>
           </div>

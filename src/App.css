@@ -12,6 +12,7 @@ body{
   height: 100vh;
   background-color: var(--white);
   position: fixed;
+  transition: all 0.3s ease-out;
 }
 .main-content{
   width: 76%;
@@ -19,5 +20,40 @@ body{
   /* background-color: black; */
   margin-left: 24%;
 
+}
+
+.nav-icon{
+  display: none;
+
+}
+
+@media screen and (max-width:960px) {
+  .sidebar{
+  
+      transform: translateX(-500%);
+      
+  }
+  .nav-toggle{
+    transform: translateX(0);
+    width: 60%;
+    
+  }
+  .main-content{
+    width: 100%;
+    margin-left: 0;
+  
+  }
+  .nav-icon{
+    position: fixed;
+    z-index: 10;
+    right: 4%;
+    top:2%;
+    display: block;
+    cursor: pointer;
+
+  }
+  .nav-icon .fas{
+      font-size: 40px;
+  }
 }
 
